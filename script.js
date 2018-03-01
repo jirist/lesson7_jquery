@@ -17,7 +17,7 @@ Filename:       script.js
 function display(event) {
     
     
-    
+    $(event.currentTarget).next().fadeIn(“slow”);
     
     
 } //end of display
