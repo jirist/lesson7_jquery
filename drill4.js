@@ -30,7 +30,7 @@ function display(event) {
 
 function display2(event) {
     
-	$(event.currentTarget).next().animate( {height: ‘toggle’}, 'slow');
+	$(event.currentTarget).next().animate( {height: "toggle"}, "slow");
 	
 } //end of display2
 
