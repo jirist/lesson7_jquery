@@ -44,8 +44,8 @@ $("h3").click(display2);
 
 $("h3").hover(function(){
     
-	$(this).css("background-color", "yellow");
+	$(this).css("background-color", "#04819E");
 	}, function(){
-	$(this).css("background-color", "pink");
+	$(this).css("background-color", "#ffcc99");
 	
 });
