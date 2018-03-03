@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      Project Name:  Recipe Display Application
+      
+      Author:        Jiri Stanc
+      
+      Date:          March 3, 2018
+
+      Filename:      myRecipe.html
+   -->  
+    
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Recipe Display Application</title>
+   <link rel="stylesheet" href="styles.css" />
+   
+   <style>
+      
+      h3 {
+         padding: 10px;
+         border: 1px solid grey;
+         background-color: #ffcc99;
+      }
+      
+      h4 {
+         padding: 5px;
+         border: 1px solid grey;
+         background-color: #ffcc99;
+         font-weight:bold;
+      }
+      
+      div#photos {
+         display:none;
+      }
+      
+      div#photos img {
+         margin:10px 0;
+      }
+      
+   </style>
+   
+   <script src="modernizr.custom.05819.js"></script>
+   
+</head>
+
+<body>
+   <header>
+      <h1>
+         Recipe Display App
+      </h1>
+   </header>
+
+   <article>
+      <h2>Banana Bread Recipe</h2>
+      <h3>Ingredients</h3>
+      <ul class="ingr">
+         <li>2 to 3 very ripe bananas, peeled</li>
+         <li>1/3 cup melted butter</li>
+         <li>1 teaspoon baking soda</li>
+         <li>Pinch of salt</li>
+         <li>3/4 cup sugar</li>
+         <li>1 large egg, beaten</li>
+         <li>1 teaspoon vanilla extract</li>
+         <li>1 1/2 cups of all-purpose flour</li>
+      </ul>
+      <h3>Instructions</h3>
+      <div class="instr">
+         <p>Preheat the oven to 350°F (175°C), and butter a 4x8-inch loaf pan.</p>
+         <p>In a mixing bowl, mash the ripe bananas with a fork until completely smooth. Stir the melted butter into the mashed bananas.</p>
+         <p>Mix in the baking soda and salt. Stir in the sugar, beaten egg, and vanilla extract. Mix in the flour.</p>
+         <p>Pour the batter into your prepared loaf pan. Bake for 50 minutes to 1 hour at 350°F (175°C), or until a tester inserted into the center comes out clean.</p>
+         <p>Remove from oven and let cool in the pan for a few minutes. Then remove the banana bread from the pan and let cool completely before serving. Slice and serve. (A bread knife helps to make slices that aren't crumbly.)</p>
+      </div>
+      <br><br>
+      <center>
+         <img src="banana-bread.jpg" alt="BrownieApplication" style="width:425px;height:280px;">
+      </center>
+      <br/>
+      <h4>More photos:</h4>
+      <div id="photos">
+         <center>
+            <img src="banana-bread 1.jpg" alt="BrownieApplication" style="width:425px;height:280px;">
+            <img src="banana-bread 2.jpg" alt="BrownieApplication" style="width:425px;height:280px;">
+         </center>
+      </div>
+      
+   </article>
+   
+   
+   <script src="jquery-1.11.1.min.js"></script>
+   <script src="myRecipe.js"></script>
+
+</body>
+</html>
+
+
