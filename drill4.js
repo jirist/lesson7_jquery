@@ -38,3 +38,14 @@ function display2(event) {
 //attach event listener to h3 elements to invoke display function when clicked
 
 $("h3").click(display2);
+
+
+//change the background color h3 element when mouse hovers over it
+
+$("h3").hover(function(){
+    
+	$(this).css("background-color", "yellow");
+	}, function(){
+	$(this).css("background-color", "pink");
+	
+});
