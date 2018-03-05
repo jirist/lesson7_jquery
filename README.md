@@ -10,7 +10,7 @@ March 5, 2018
 Jiri Stanc
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+Using jQuery JavaScript library, the purpose of this assignment is to develop interactive web page by utilizing jQuery syntax to select DOM elements, create animations and handle event methods.
 
 ### View Project Online:
 https://jirist.github.io/lesson7_jquery/
