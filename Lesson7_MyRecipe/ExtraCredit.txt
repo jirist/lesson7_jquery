@@ -1,0 +1,6 @@
+App Features:
+
+1) jQuery index-based selectors (using CSS syntax) to select specified HTML elements to operate upnon.
+2) jQuery traversing to select HTML elements based on their relation to other HTML elements.
+3) jQuery event methods to trigger effects on DOM elements when the user interacts with the HTML page in the browser.
+4) jQuery css() method to interactively set CSS properties on selected DOM elements.
